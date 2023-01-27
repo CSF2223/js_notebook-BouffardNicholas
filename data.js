@@ -20,11 +20,17 @@ If you think the value of the variable can change, use let.
 
 
 // Declare variables (without value assignment)
+let score;
+let lives;
 
 
 
 
 // Initialize variable (declare AND Assign value simultaneously)
+var num = 7;
+const ageToVote = 18;      //ageTVote lower caamel cace 
+let x =5;
+let y = 7;
 
 
 
@@ -32,6 +38,12 @@ If you think the value of the variable can change, use let.
 
 // Use Variables
 // **Note: An equal sign is used to assign values to variables.
+ 
+ // = means get he value of 
+ 
+ score = num + 3;
+ lives = score + 1; 
+  
 
 
 
@@ -39,11 +51,13 @@ If you think the value of the variable can change, use let.
 
 
 /* ARRAYS: */
+const newEngLand = ["New Hamshire", " vermont", " Maine", "Massaschusetts", "Rode Iland", "connectict"];
+// index vallues          0              1          2             3               4            5
+const grades = [91, 100, 88, 95, 75, 98, 100];
+// index valuse  0   1    2   3   4   5    6 
 
-
-
-
-
+let state = newEngLand[2];
+let student2 = grades[1];
 
 // The Array object has many methods and properties
 
